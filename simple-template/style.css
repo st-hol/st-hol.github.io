@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+.upper{
+    padding: 0;margin: 0;
+    background-color: #f6f6f6;
+}
+.headerUpper{
+    font-family: "Segoe UI", sans-serif;
+    vertical-align: middle;
+    padding: 20px 0;
+    height: 20px;/* min 15 max 55 lh14 */
+    margin: 0 10%;
+}
+.flaticon-house-black-silhouette-without-door{
+    display:inline-block;
+    margin:0;
+    margin-right:1%;
+    color:#545454;
+}
+
+
+.headerParagraph{
+    float:left;
+    margin-right: 5%;
+    display:inline-block;
+    color:#545454;
+}
+.logoIcon{
+    display: inline-block;
+    float:left;
+}
+
+.logoSlogan{
+    float:left;
+    color:#676767;
+    display:inline-block;
+}
+.logoA{
+    text-decoration: none;
+    color: inherit;
+}
+.dollar{
+
+    margin-left: 12%;
+    margin-right: 2%;
+}
+.euro{
+    margin-right: 6%;
+    margin-left: 0;
+}
+
+
+.iconSize:before{
+    color:#545454;
+    font-size: 25px;
+}
+.iconSize{
+    cursor: pointer;
+    margin-left: 2%;
+    display:inline-block;
+    float: right;
+
+}
+
+.currentUser{
+    margin-right: 0;
+    float: right;
+}
+.userA{
+    text-decoration: none;
+    color: inherit;
+}
+.triangleDown{
+    font-size: 10px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.menuBlock{
+    font-family: "Segoe UI Semibold", sans-serif;
+    padding: 0;margin: 0;
+    background-color: #e1e1e1;
+}
+.menu {
+    vertical-align: middle;
+   height: 15px;  /* min-height: 15px; max-height: 75px;*/
+    display:flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 20px 0; /* 1.5% 0 */
+}
+.menuItem{
+
+    text-align: center;
+
+    font-weight: bold;
+    color: #676767;
+}
+.menuItemA{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+
+.submenuCont{
+    position: relative;
+    bottom:-14px;/*-88%*/
+display:none;/*hover effect*/
+}
+.triangleMenuHover{
+    cursor: default;
+    font-size: 40px;
+    position: absolute;
+    display: inline;
+    z-index: 100;
+    left:60px;
+    top:-25px;
+    color:white;
+    visibility: visible;
+    margin: 0 auto;
+}
+.submenu{
+    background-color: white;
+    width:180%;
+padding: 0;
+    /*padding: 10px 20px 20px 20px;*/
+    position: absolute;
+    z-index: 200;
+    left:-35%;
+    list-style: none;
+    text-align: left;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.2);
+}
+.submenu > li{
+    position: relative;
+    z-index: 300;
+    white-space: nowrap;
+
+    display: block;
+}
+.submenuItemA{
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: "Segoe UI Light", sans-serif;
+    padding: 5%;
+}
+
+.menuItem:hover .menuItemA{
+    color:#ba2442;
+}
+.menuItem:hover .submenuCont {
+    display: block;
+}
+.submenu>li>a:hover{
+    background-color: #d7f0fc;
+}
+
+/**/
+
+.tools{
+    font-family: "Segoe UI Light", sans-serif;
+    margin: 40px 10% 50px 10%;
+    position: relative;
+    clear: both;
+vertical-align: bottom;
+}
+
+.location{
+    display: inline-block;
+    color: #1f1f1f;
+    position: absolute;
+    bottom:0;
+}
+.locationA{
+    color: inherit;
+    font-family: "Segoe UI Semibold", sans-serif;
+}
+
+.triangleLocationDownA{
+    font-size: 10px;
+    line-height: 14px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+form{
+    display: inline-block;
+}
+.searchTool{
+    float: right;
+    display: inline-block;
+    border: 1px solid #929292;
+    line-height: 40px;
+    vertical-align: middle;
+    width: 30%;
+    padding: 0 10px 0 50px;
+    color: #676767;
+    font-size: 14px;
+    background: url("image/magnifier.png") no-repeat 5% 55%;
+    font-family: "Segoe UI Semilight", sans-serif;
+}
+.search{
+    color:#929292;
+    font-size: 14px;
+    border:none;
+
+    width:100%;
+    line-height: 24px;
+    outline:none;
+
+}
+.searchByWorker{
+    line-height: 18px;
+    margin-top: 10px;
+    border-left: 2px solid #929292;
+    padding-left: 10px;
+    float: right;
+    text-decoration: none;
+    color:#929292;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/**/
+.proposals{
+    position: relative;
+    font-family: "Segoe UI Light", sans-serif;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.2);
+    margin: 0 10%;
+    background-color: #fafafa ;
+    height: auto;
+}
+.tick{
+float: left;
+    display: inline-block;
+    width: 16%;
+    color: white;
+    margin: 3% 5%;
+}
+.proposalsTitle{
+    float: left;
+    display: inline-block;
+    margin-top: 3% ;
+    font-family: "Segoe UI Semibold", sans-serif;
+   font-size: 18px;
+    color: black;
+    position: absolute;
+    left:30%;
+    top:-5%;
+}
+.line{
+    float: left;
+    display: inline-block;
+
+margin-top: 10px;
+
+    border: none;
+    color: #BA2442;
+    background-color:#BA2442;
+    height: 4px;
+    width:53px;
+}
+.text{
+    float: left;
+    display: inline-block;
+    font-family: "Segoe UI Light", sans-serif;
+    width:65%;
+    font-size: 1vw;
+}
+.actionBar{
+    margin-top:4%;
+    display: inline-block;
+    position: relative;
+    width:15%;
+    float: right;
+    margin-right: 5%;
+}
+.btn{
+    outline:none;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 12%;
+    width: 100%;
+    height:45px;
+    color:white;
+    font-weight: 400;
+}
+.btn:active{
+    box-shadow: inset 0 7px 10px 0 rgba(0,0,0,0.2);
+}
+.btnRed{
+    background-color: #ba2441;
+
+}
+.btnBlue{
+    background-color: #0093d0;
+}
+.exclamation{
+    display: inline-block;
+    position: absolute;
+    color:#bfbfbf;
+    right:20px;
+    bottom:20px;
+}
+/**/
+.news{
+    margin: 3% 10% 0 10%;
+    border: 1px solid #bfbfbf;
+    padding-bottom: 3%;
+}
+.newsTitle{
+    font-family: "Segoe UI Semibold", sans-serif;
+    font-size: 30px;
+}
+.rss{
+    margin-top: 2%;
+    margin-right: 3%;
+    float:right;
+    width: 14px;
+}
+.rssSubscribe{
+    margin-top: 2%;
+    margin-right: 1%;
+    float:right;
+    color:#7f7f7f;
+    text-decoration: none;
+    border-bottom: 1px solid #7f7f7f;
+}
+.newsTitleBlock{
+    float: left;
+    display: inline-block;
+    margin-top: 1.5% ;
+    margin-left: 3%;
+    color: black;
+    margin-bottom: 3%;
+}
+
+.newsContainer{
+    width:94%;/*  3 + 94 + 3  */
+position: relative;
+    margin-left:3%;
+    display:flex;
+    justify-content: space-between;
+}
+.newsItem{
+    padding: 50px 0 30px 0;
+    text-align: center;
+    vertical-align: middle;
+    width:23%;
+    height: 12vh;
+    background: #e9e9e9;
+}
+
+.newsIcon:before {
+    font-size: 80px;
+    color: #cccccc;
+}
+
+.arrow{
+    width:35px;
+    height:35px;
+    display: inline-block;
+    outline:none;
+    border: 0;
+    border-radius: 50%;
+    background-color:white;
+    color:#cccccc;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+.arrow:active{
+    box-shadow: inset 0 7px 10px 0 rgba(0,0,0,0.2);
+}
+.arrowLeft{
+    position: absolute;
+    top:40%;left:-20px;/*40-center*/
+
+}
+.arrowRight{
+    position: absolute;
+    top:40%;right:-20px;
+}
+.arrowIcon{
+    padding:5px;
+}
+/**/
+.informBar{
+    margin: 2% 10%;
+}
+.informContainer{
+
+    display: flex;
+    justify-content: space-between;
+}
+.informItem{
+font-size: 1.2vw;
+    text-align: center;
+    vertical-align: middle;
+
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.2);
+    position: relative;
+    width:19%;
+    height: 18vh;
+    background-color: #f8f8f8;
+}
+.informIcon:before {
+    font-size: 40px;
+    color: #909090;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+.informTitle{
+    position: absolute;
+    top:15%;left:15%;
+    font-family: "Segoe UI Semibold", sans-serif;
+text-align: left;
+    color: #3b3b3b;
+    display: inline-block;
+    width: 40%;
+}
+.informItem:hover {
+    color:#BA2441;
+    background-color: white;
+    cursor:pointer;
+  /*box-shadow: none;*/
+}
+.informItem:hover .informIcon:before{
+    color: #BA2441;
+}
+.informItem:hover .informTitle{
+    color: #BA2441;
+}
+/**/
+.actionsBlock{
+    margin: 3% 10%;
+}
+.actionCont{
+    width:38.5%; /*100->80*/
+    border: 1px solid #bfbfbf;
+    padding: 3% 5%;
+    position: relative;
+}
+.actionContLeft{
+    float: left;
+}
+.actionContRight{
+    float: right;
+}
+.actionTitle{
+    font-family: "Segoe UI Semibold", sans-serif;
+    font-size: 24px;
+}
+.actionText{
+    margin-top: 4%;
+    width:80%;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 16px;
+    font-size: 1vw;
+}
+.goToAllActions{
+    float: right;
+    display: inline-block;
+
+    text-decoration: none;
+    color:#BA2441;
+    border-bottom: 1px solid #BA2441;
+}
+.actionGalleryCont{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 7% 0;
+}
+.actionGalleryItem{
+    padding: 20px 0 40px 0;
+    text-align: center;
+    vertical-align: middle;
+    width:30%;
+    height:6vh;
+    background-color: #e9e9e9;
+}
+.actionGalleryIcon:before{
+    color: #dfdfdf;
+    font-size: 60px;
+}
+.arrowActionLeft{
+    position: absolute;
+    top:30%;left:-20px;/*30-center*/
+
+}
+.arrowActionRight{
+    position: absolute;
+    top:30%;right:-20px;
+}
+                                                    /**/
+.birthdays{
+    margin: 0 10%;
+}
+.cakeIcon:before{
+    float: left;
+    color:#BA2441;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.birthdayTitle{
+
+    float: left;
+    color: #BA2441;
+    font-size: 24px;
+    display: inline-block;
+    margin: 15px 15px;
+}
+.goToAllWorkers {
+    float: left;
+    display: inline-block;
+    margin: 20px 0 10px 25px;
+
+    text-decoration: none;
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+}
+.rssBirthdays{
+    width: 14px;
+    margin-top: 20px;
+    float: right;
+}
+.rssSubscribeBirthdays{
+    text-decoration: none;
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+margin-right:10px;
+    margin-top: 20px;
+    float: right;
+}
+.birthdaysCont{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 7% 0;
+}
+.birthdayItem{
+    position: relative;
+   background-color: #eaeaea;
+    width:8%;
+    max-width: 100px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+.date{
+    position: absolute;
+    top:-40px;
+    color:#4d4d4d;
+}
+.number{
+    font-size: 24px;
+}
+.userIcon:before{
+    margin: 15px;
+    color:#d2d2d2;
+    font-size: 50px;
+    line-height: 100px;
+}
+/**/
+.newWorkers{
+    margin: 0 10%;
+}
+.plusUser:before{
+    float: left;
+    color:#BA2441;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.newWorkersTitle{
+    float: left;
+    color: #BA2441;
+    font-size: 24px;
+    display: inline-block;
+    margin: 15px 15px;
+}
+.goToAllNewWorkers {
+    float: left;
+    display: inline-block;
+    margin: 20px 0 10px 25px;
+
+    text-decoration: none;
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.newWorkerGuideA{
+    float: right;
+    margin-right:30px;
+    margin-top: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color:#34a860;
+    padding: 5px;
+    border: 1px solid #34a860;
+    border-radius: 5px;
+}
+
+
+.newWorkerCont{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 7% 0;
+}
+.newWorkerItem{
+    position: relative;
+    background-color: #eaeaea;
+    width:8%;
+    max-width: 100px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+.nameNewWorker{
+    font-family: "Segoe UI Semilight", sans-serif;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    top:20%;
+    text-align: left;
+    margin-left: 15%;
+    color:white;
+}
+
+.newWorkerItem:hover{
+    cursor: pointer;
+    background-color: #ae2b45;
+}
+.newWorkerItem:hover .nameNewWorker{
+    display: block;
+}
+.newWorkerItem:hover .userIcon:before{
+    color:#9c273e;
+}
+                            /**/
+footer{
+    background-color: #292929;
+}
+.footerBlock{
+    font-size: 12px;
+    margin: 0 10%;
+    height: 100px;
+    color:white;
+    font-family: "Segoe UI Semilight", sans-serif;
+    position: relative;
+}
+.footerSlogan{
+    white-space: pre-wrap;
+    float:left;
+    margin:4% 0 2% 0;
+}
+.share{
+    display: inline-block;
+    outline: none;
+    position: absolute;
+    right:0;
+    top:30%;
+}
+.copyright{
+    float: right;
+    display: inline-block;
+    padding-top: 27px;
+    margin:4% 0 2% 0;
+}
+.shareBtn{
+    margin-left: 10px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background:none;/*****/
+}
+.shareBtn:active{
+    transform: rotate(-10deg);
+}
